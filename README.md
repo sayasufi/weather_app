@@ -1,59 +1,67 @@
-Weathercast Using Python and Django 
-*Weather Bug is the application of science and technology to predict the conditions of the atmosphere for a given location and time. You can get the realtime Weather forecasting by using this web application*
+<a href="https://wakatime.com/badge/user/018c3f04-b140-41f9-a489-5b0143d153f5/project/018d8db7-7e34-4138-936f-09b8becef097"><img src="https://wakatime.com/badge/user/018c3f04-b140-41f9-a489-5b0143d153f5/project/018d8db7-7e34-4138-936f-09b8becef097.svg" alt="wakatime"></a>
 
+# Сайт с прогнозом погоды на день
 
--->
+---
 
-## Requirements
-1.  Python 3+
-2.  Django 3+
+## Используемые фреймворки и библиотеки
 
-## Setup, Installation and Run
+<ul>
+<li><strong>Python</strong></li>
+<li><strong>Django 5</strong></li>
+<li><strong>Translate</strong></li>
+<li><strong>HTML</strong></li>
+<li><strong>CSS</strong></li>
+<li><strong>Bootstrap</strong></li>
+<li><strong>JavaScript</strong></li>
+</ul>
 
-To run the app on your local machine, you need Python 3+, installed on your computer. Follow all the steps to run this project.
-   
-1.  Create `venv` virtual environment:
+---
+
+## Установка
+
+1. Создайте `venv` виртуальное окружение:
+
 ```bash
 pip install venv virtual_env_name
 ```
-    
-2.  Activate `venv` virtual environment:
+
+2. Активируйте `venv` виртуальное окружение:
+
 ```bash
 source virtual_env_name/Scripts/activate
 ```
 
+3. Загрузите файлы с репозитория
 
-```
-
-4. Then enter the corresponding directory:
 ```bash
-cd Weather_App--Python-Django
+git remote add origin https://github.com/sayasufi/weather_app.git
+git pull https://github.com/sayasufi/weather_app.git master
 ```
-    
-5. Install all the requirements using pip:
+
+4. Установите все необходимые зависимости:
+
 ```bash
 pip install -r requirements.txt
-``` 
+```
 
-6.	Run server:
+5. Запустите сервер:
+
 ```bash
 python manage.py runserver
 ```
 
-# Tools
-## Front-end Part
-* HTML
-* CSS
-* Bootstrap
-* JavaScript
-## Back-end
-* Django
-* SQLite 3
+---
 
-# Screenshots of the Project
+## Скриншоты
+
 <p align="center">
-  <img width="660" height="300" src="static/ss/a.png">
-  <img width="660" height="300" src="static/ss/b.png">
+  <img src="source/static/ss/a.png">
+  <img src="source/static/ss/b.png">
 </p>
+
+---
+
+
 
 
